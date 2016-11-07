@@ -1,0 +1,75 @@
+#cta .inner {
+    display: block;
+}
+#cta .inner header {
+      width: 90%;
+}
+.f3 {
+    padding-left: 0.5em;
+}
+.f1 {
+    width: 50%;
+    float: left;
+    padding: 0.5em;
+    border-radius: 8px;
+
+}
+.f2 {
+    padding: 0.5em;
+    border-radius: 8px;
+}
+
+.f4 {
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="password"], input[type="email"], select, textarea  {
+    background-color: rgb(82,70,62);
+}
+
+body.landing #page-wrapper {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+#main > header {
+    padding: 12em 0 10em 0;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/banner01.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+table {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+table thead tr th {
+    font-size: 1.2em;
+
+}
+ .mainhead {
+ font-size: 4.75em !important;
+     padding: 0 35px 20px 35px !important;
+     margin-bottom: 25px;
+}
+ .innerhead1 {
+     font-size: 0.25em !important;
+     line-height: 12px;
+     letter-spacing: 1px;
+     padding-right: 20px;
+ }
+.wrapper.style1 {
+    background-color: #2140b2;
+    color: #a2bbe4;
+}

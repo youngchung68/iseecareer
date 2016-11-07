@@ -1,0 +1,193 @@
+.login-body .login-form ,.navbar {
+    border: 1px solid #B0B6BE;
+    background: rgba(213,215,222,0.7);
+}
+.navbar {
+    min-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.navbar-nav>li {
+    border: 1px solid #007aff;
+    border-radius: 0px;
+    background: #3097D1;
+    margin: 4px 10px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a{
+    margin-top: 0px;
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+.navbar-nav>li:hover,.navbar-nav>li:focus,.navbar-nav>li:active{
+
+    border-color: #007aff;
+    background: transparent;
+
+}
+.navbar-nav>li:hover>a {
+    color: #007aff !important;
+}
+
+
+.login-body {
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner01.jpg);
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner01.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner01.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner01.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner01.jpg);
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.loginform {
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.login-body .login-form p,  .login-form p, .loginregister {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #34aadc;
+    text-align: center;
+}
+.login-form {
+    border: 1px solid #B0B6BE;
+    background: rgba(213,215,222,0.9);
+    background: #d5d7de;
+}
+
+
+.login-wrap , .loginregister{
+    padding: 20px;
+}
+.login-form .login-img {
+    font-size: 50px;
+    font-weight: 300;
+}
+.login-form .input-group {
+    padding-bottom: 15px;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.login-form .input-group-addon {
+    padding: 6px 12px;
+    font-size: 16px;
+    color: #8b9199;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.login-form input[type="text"], .login-form input[type="email"], .login-form input[type="password"] {
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    border-radius: 0;
+
+
+}
+.login-form .checkbox {
+    font-weight: normal;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 14px;
+    display: block;
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.login-form a {
+    color: #b6b6b6;
+}
+
+.login-form a {
+    color: #688a7e !important;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+
+    margin-top: -10px;
+}
+.btnlogin,  .loginregister >.btn{
+    border-radius: 0px;
+}
+ .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #007aff;
+    border-color: #007aff;
+    background: transparent;
+    border-radius: 0;
+}
+div.container6 {
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+div.container6 h2{
+    font-family:  "Open Sans", Helvetica, sans-serif;
+    /*color:#f2f5f7;*/
+    line-height: 2.25em;
+    margin: 0;
+    display: inline-block;
+    font-size: 2.35em;
+    opacity: 1;
+    padding: 0.8em 1em;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-weight: 800;
+
+}
+div.container6 h2:before, div.container6 h2:after {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+}
+.logocircle {
+    width: 48px;
+}
+

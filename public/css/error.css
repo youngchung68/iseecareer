@@ -1,0 +1,37 @@
+body {
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    line-height: 1.65em;
+    background: #2e3842;
+}
+.errorcon {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.title{
+    font-size: 200px;
+    font-weight: 800;
+}
+.subtitle {
+    margin-top: 20%;
+    font-size: 50px;
+    font-weight: 700;
+}
+.contacttitle{
+    margin: -80px 80px 0 80px;
+    font-weight: 700;
+}
+hr {
+    height:0;
+    border:0;
+    border-top:2px solid #292b2d;
+}
+.t1{
+    font-size: 14px;
+    font-weight: 400;
+}
